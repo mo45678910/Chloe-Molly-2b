@@ -5,6 +5,18 @@ import {
 import {
     IntroDemo
 } from "./components/intro"
+import {
+    HobbyOneDemo
+} from "./components/hobby1"
+import {
+    ListOneDemo
+} from "./components/list1"
+import {
+    TableOneDemo
+} from "./components/table1.tsx";
+import {
+    FormOneDemo
+} from "./components/form"
 
 import {
     Hobby2Demo
@@ -23,6 +35,10 @@ export default function App() {
       <div>
         <TitleDemo />
           <IntroDemo />
+          <HobbyOneDemo />
+          <ListOneDemo />
+          <TableOneDemo />
+          <FormOneDemo />
           <Hobby2Demo />
           <List2Demo />
           <Table2Demo />
