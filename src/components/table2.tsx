@@ -50,6 +50,10 @@ export function Table2WithProps(props: Table2Props) {
 
 export function Table2Demo(){
     return (
-        <Table2WithProps row1={["Brand", "Price Per Blind Box", "Size", "Rating Out of 5 Stars"]} row2={[" ", " ", " ", " "]} row3={[" ", " ", " ", " "]} row4={[" ", " ", " ", " "]} row5={[" ", " ", " ", " "]} />
+        <Table2WithProps row1={["Brand", "Price Per Blind Box", "Size", "Rating Out of 5 Stars"]}
+                         row2={["Nyota", "$15-$30", "3-4in", "4.8"]}
+                         row3={["Smiski", "$10-$20", "2-3in", "4.9"]}
+                         row4={["Hirono", "$11-$25", "2-3in", "4.9"]}
+                         row5={["Dimoo", "$18-$26", "2.7-4in", "4.9"]} />
     )
 }

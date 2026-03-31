@@ -16,7 +16,7 @@ import {
 } from "./components/table1.tsx";
 import {
     FormOneDemo
-} from "./components/form"
+} from "./components/form1.tsx"
 
 import {
     Hobby2Demo
@@ -30,18 +30,25 @@ import {
     Table2Demo
 } from "./components/table2.tsx";
 
+import {
+    FormTwoDemo
+} from "./components/form2.tsx";
+
 export default function App() {
   return (
       <div>
         <TitleDemo />
           <IntroDemo />
+          < hr/>
           <HobbyOneDemo />
           <ListOneDemo />
           <TableOneDemo />
           <FormOneDemo />
+          < hr/>
           <Hobby2Demo />
           <List2Demo />
           <Table2Demo />
+          <FormTwoDemo />
 
       </div>
   )
