@@ -16,6 +16,11 @@ export function Hobby2WithProps(props: Hobby2Props) {
 
 export function Hobby2Demo(){
     return (
-        <Hobby2WithProps name={"Chloe"} hobby={"Figurine Collecting"} />
+        <>
+            <Hobby2WithProps name={"Chloe"} hobby={"Figurine Collecting"} />
+            <div id="Nyota">
+                <img src="public/NyotaIcon.jpg" width="300" alt="Nyota"/>
+            </div>
+        </>
     )
 }
