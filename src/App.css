@@ -182,3 +182,16 @@
     border-right-color: var(--border);
   }
 }
+
+li {
+  text-align: center;
+}
+
+.collapse,
+.collapse th,
+.collapse td {
+  border-collapse: collapse;
+  border: 2px solid darkseagreen;
+  padding: 10px;
+  text-align: center;
+}
